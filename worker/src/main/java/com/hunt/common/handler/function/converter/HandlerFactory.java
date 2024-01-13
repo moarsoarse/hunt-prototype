@@ -7,6 +7,7 @@ import lombok.Getter;
 import org.camunda.bpm.client.task.ExternalTaskHandler;
 
 import java.util.Map;
+import java.util.TreeMap;
 
 @Getter
 @SuppressWarnings({"rawtypes","unchecked"})
@@ -28,7 +29,8 @@ public final class HandlerFactory  {
 
         if (workerFunction instanceof CreateNewEntryFunction) {
             return (externalTask, externalTaskService) -> {
-                BaseEntity entity = externalTask.getVariable("entity");
+                TreeMap<String,String> entityVar = externalTask.getVariable("entity");
+                BaseEntity entity = new BaseEntity();
                 BaseEntity result = ((CreateNewEntryFunction) workerFunction).createNew(entity);
                 externalTaskService.complete(externalTask, Map.of("result", result));
             };

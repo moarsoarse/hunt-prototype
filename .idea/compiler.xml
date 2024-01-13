@@ -8,12 +8,13 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="hunt-camunda-hunter-service" />
-        <module name="camunda-shade-client" />
+        <module name="hunt-hunter-service" />
         <module name="hunt-camunda-worker" />
         <module name="camunda-bpm" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="camunda-shade-client" target="1.8" />
       <module name="service-parent" target="17" />
     </bytecodeTargetLevel>
   </component>
@@ -23,6 +24,7 @@
       <module name="camunda-shade-client" options="" />
       <module name="hunt-camunda-hunter-service" options="-parameters" />
       <module name="hunt-camunda-worker" options="-parameters" />
+      <module name="hunt-hunter-service" options="-parameters" />
       <module name="hunt-service-parent" options="-parameters" />
       <module name="service-parent" options="-parameters" />
     </option>

@@ -1,7 +1,10 @@
 package com.hunt.common.entity;
 
+import jakarta.persistence.Entity;
+import jakarta.persistence.Id;
 import lombok.Getter;
 import lombok.Setter;
+import org.springframework.data.jpa.domain.AbstractPersistable;
 
 import java.io.Serializable;
 import java.time.Instant;
@@ -15,12 +18,13 @@ import java.util.UUID;
  */
 @Getter
 @Setter
-public class BaseEntity implements Serializable {
+@Entity
+public abstract class BaseEntity implements Serializable {
 
     /**
      * ID записи
      */
-
+    @Id
     private UUID id;
 
     /**

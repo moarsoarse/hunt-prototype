@@ -27,7 +27,6 @@
   </properties>
   <modules>
     <module>service-parent</module>
-    <module>shade-client</module>
   </modules>
   <dependencyManagement>
     <dependencies>

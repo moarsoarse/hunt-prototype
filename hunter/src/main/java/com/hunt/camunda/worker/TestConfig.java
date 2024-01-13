@@ -13,6 +13,7 @@ public class TestConfig {
         return (Hunter h) ->
                  {
                     h.setName("муча");
+                    System.out.println("IM HERE!!!");
                     return h;
                 };
 
