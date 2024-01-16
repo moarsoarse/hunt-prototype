@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="JpaBuddyIdeaProjectConfig">
+  <component name="JpaBuddyIdeaProjectConfig" ddlActionDbType="h2">
     <option name="defaultUnitInitialized" value="true" />
     <option name="renamerInitialized" value="true" />
+    <option name="snapshotDbValue" value="28f4c025-f0e5-4b7f-bade-c70483fbf4b4" />
+    <option name="reverseEngineeringLastDbConnectionId" value="28f4c025-f0e5-4b7f-bade-c70483fbf4b4__DEFAULT_PUBLIC" />
+    <option name="reLastEntityCreationPackage" value="hunter/src/main/java/com/hunt/worker/hunter" />
   </component>
 </project>

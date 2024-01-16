@@ -1,1 +1,1 @@
-com.hunt.common.starter.impl.WorkerAutoConfiguration
+com.hunt.worker.common.starter.impl.WorkerAutoConfiguration

@@ -1,10 +1,10 @@
 package com.hunt;
 
-import java.util.logging.Logger;
-
 import org.camunda.bpm.engine.delegate.DelegateExecution;
 import org.camunda.bpm.engine.delegate.JavaDelegate;
 import org.springframework.stereotype.Component;
+
+import java.util.logging.Logger;
 
 /**
  * This is an easy adapter implementation
