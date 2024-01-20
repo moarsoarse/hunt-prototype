@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="MybatisStateComponent">
+    <option name="annotationMapper" value="true" />
+    <option name="generatorService" value="true" />
+    <option name="generatorServiceInterface" value="true" />
+    <option name="javaMapperPackage" value="com.hunt.worker.ticket.mapper2" />
+    <option name="javaMapperSourcePackage" value="D:\My-Projects\TheHunt\hunt-prototype\ticket\src\main\java" />
+    <option name="javaModelPackage" value="com.hunt.worker.ticket.model" />
+    <option name="javaModelSourcePackage" value="D:\My-Projects\TheHunt\hunt-prototype\ticket\src\main\java" />
+    <option name="javaServiceInterfacePackage" value="com.hunt.worker.ticket.service" />
+    <option name="javaServiceInterfaceSourcePackage" value="D:\My-Projects\TheHunt\hunt-prototype\ticket\src\main\java" />
+    <option name="javaServicePackage" value="com.hunt.worker.ticket.service.impl" />
+    <option name="javaServiceSourcePackage" value="D:\My-Projects\TheHunt\hunt-prototype\ticket\src\main\java" />
+    <option name="javaXmlSourcePackage" value="D:\My-Projects\TheHunt\hunt-prototype\ticket\src\main\resources" />
+    <option name="key" value="ID" />
+    <option name="mybatisPlusIdType" value="0" />
+    <option name="rmPrefix" value="," />
+    <option name="schema" value="PUBLIC" />
+    <option name="serviceMode" value="1" />
+    <option name="tableName" value="TICKET" />
+    <option name="tablePropertiesMap">
+      <map>
+        <entry key="TICKET">
+          <value>
+            <h>
+              <option name="columnOverrides">
+                <list>
+                  <TableColumnOverride>
+                    <option name="columnName" value="ID" />
+                    <option name="javaProperty" value="id" />
+                    <option name="javaType" value="UUID" />
+                    <option name="jdbcType" value="OTHER" />
+                  </TableColumnOverride>
+                  <TableColumnOverride>
+                    <option name="columnName" value="ISSUEDATE" />
+                    <option name="javaProperty" value="issuedate" />
+                    <option name="javaType" value="java.util.Date" />
+                    <option name="jdbcType" value="TIMESTAMP" />
+                  </TableColumnOverride>
+                  <TableColumnOverride>
+                    <option name="columnName" value="ISSUER" />
+                    <option name="javaProperty" value="issuer" />
+                    <option name="javaType" value="java.lang.String" />
+                    <option name="jdbcType" value="VARCHAR" />
+                  </TableColumnOverride>
+                  <TableColumnOverride>
+                    <option name="columnName" value="HUNTERID" />
+                    <option name="javaProperty" value="hunterid" />
+                    <option name="javaType" value="java.lang.Object" />
+                    <option name="jdbcType" value="OTHER" />
+                  </TableColumnOverride>
+                  <TableColumnOverride>
+                    <option name="columnName" value="CREATEDDATE" />
+                    <option name="javaProperty" value="createddate" />
+                    <option name="javaType" value="java.util.Date" />
+                    <option name="jdbcType" value="TIMESTAMP" />
+                  </TableColumnOverride>
+                  <TableColumnOverride>
+                    <option name="columnName" value="UPDATEDDATE" />
+                    <option name="javaProperty" value="updateddate" />
+                    <option name="javaType" value="java.util.Date" />
+                    <option name="jdbcType" value="TIMESTAMP" />
+                  </TableColumnOverride>
+                </list>
+              </option>
+              <option name="tableName" value="TICKET" />
+            </h>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="tkMappers" value="tk.mybatis.mapper.common.Mapper" />
+    <option name="useActualColumnNamesCheckBox" value="true" />
+    <option name="userMybatisPlus3" value="true" />
+  </component>
+</project>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/worker/hunt-camunda-worker.iml" filepath="$PROJECT_DIR$/worker/hunt-camunda-worker.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hunt-root.iml" filepath="$PROJECT_DIR$/hunt-root.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ticket/hunt-ticket-service.iml" filepath="$PROJECT_DIR$/ticket/hunt-ticket-service.iml" />
+    </modules>
+  </component>
+</project>

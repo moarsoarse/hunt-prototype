@@ -7,9 +7,11 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="hunt-camunda-worker" />
+        <module name="hunt-ticket-service" />
         <module name="hunt-hunter-service" />
+        <module name="hunt-camunda-worker" />
         <module name="camunda-bpm" />
+        <module name="hunt-demo-jpa" />
       </profile>
     </annotationProcessing>
   </component>
@@ -19,7 +21,7 @@
       <module name="hunt-camunda-hunter-service" options="-parameters" />
       <module name="hunt-camunda-worker" options="" />
       <module name="hunt-hunter-service" options="" />
-      <module name="hunt-service-parent" options="" />
+      <module name="hunt-spring-boot-parent" options="" />
     </option>
   </component>
 </project>

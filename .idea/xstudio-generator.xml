@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="XstudioGenerator">
+    <option name="tableConfigs">
+      <map>
+        <entry key="LOCALHOST">
+          <value>
+            <ProjectPersistentProperties>
+              <option name="database" value="LOCALHOST" />
+              <option name="plugin">
+                <PluginProperties>
+                  <option name="chkLombok" value="true" />
+                </PluginProperties>
+              </option>
+              <option name="schema" value="TICKET" />
+              <option name="type" value="h2" />
+            </ProjectPersistentProperties>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

@@ -18,12 +18,12 @@
         <option value="$PROJECT_DIR$/cloud-parent/pom.xml" />
         <option value="$PROJECT_DIR$/demo/pom.xml" />
         <option value="$PROJECT_DIR$/service-parent/pom.xml" />
+        <option value="$PROJECT_DIR$/ticket/pom.xml" />
       </list>
     </option>
     <option name="workspaceImportForciblyTurnedOn" value="true" />
   </component>
   <component name="PWA">
-    <option name="enabled" value="true" />
     <option name="wasEnabledAtLeastOnce" value="true" />
   </component>
   <component name="ProjectResources">
