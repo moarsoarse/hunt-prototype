@@ -17,6 +17,46 @@
       <option name="url" value="https://maven.anypoint.mulesoft.com/api/v2/maven" />
     </remote-repository>
     <remote-repository>
+      <option name="id" value="Central" />
+      <option name="name" value="Central" />
+      <option name="url" value="https://repo1.maven.org/maven2/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="repository.spring.release" />
+      <option name="name" value="Spring GA Repository" />
+      <option name="url" value="http://repo.spring.io/release" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="central" />
+      <option name="name" value="Maven Central" />
+      <option name="url" value="https://repo.maven.apache.org/maven2/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="mvn-central" />
+      <option name="name" value="Central Repository" />
+      <option name="url" value="https://repo1.maven.org/maven2/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="mulesoft-releases" />
+      <option name="name" value="MuleSoft Releases Repository" />
+      <option name="url" value="https://repository.mulesoft.org/releases/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="camunda-bpm-nexus" />
+      <option name="name" value="camunda-bpm-nexus" />
+      <option name="url" value="https://artifacts.camunda.com/artifactory/public/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="sonatype-nexus" />
+      <option name="name" value="sonatype-nexus" />
+      <option name="url" value="https://oss.sonatype.org/content/groups/staging" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="centralM" />
+      <option name="name" value="Maven Central" />
+      <option name="url" value="https://repo.maven.apache.org/maven2/" />
+    </remote-repository>
+    <remote-repository>
       <option name="id" value="camunda-bpm-nexus" />
       <option name="name" value="Camunda Maven Repository" />
       <option name="url" value="https://artifacts.camunda.com/artifactory/public/" />
@@ -27,24 +67,14 @@
       <option name="url" value="https://artifacts.camunda.com/artifactory/public/" />
     </remote-repository>
     <remote-repository>
-      <option name="id" value="Central" />
-      <option name="name" value="Central" />
-      <option name="url" value="https://repo1.maven.org/maven2/" />
+      <option name="id" value="anypoint-exchange-v2" />
+      <option name="name" value="Anypoint Exchange" />
+      <option name="url" value="https://maven.anypoint.mulesoft.com/api/v2/maven" />
     </remote-repository>
     <remote-repository>
-      <option name="id" value="maven-central" />
-      <option name="name" value="Maven Central" />
-      <option name="url" value="https://repo1.maven.org/maven2" />
-    </remote-repository>
-    <remote-repository>
-      <option name="id" value="repository.spring.release" />
-      <option name="name" value="Spring GA Repository" />
-      <option name="url" value="http://repo.spring.io/release" />
-    </remote-repository>
-    <remote-repository>
-      <option name="id" value="mvn-central" />
-      <option name="name" value="Central Repository" />
-      <option name="url" value="https://repo1.maven.org/maven2/" />
+      <option name="id" value="spring-release" />
+      <option name="name" value="Spring release" />
+      <option name="url" value="https://repo.spring.io/milestone" />
     </remote-repository>
     <remote-repository>
       <option name="id" value="jboss.community" />
@@ -52,9 +82,9 @@
       <option name="url" value="https://repository.jboss.org/nexus/content/repositories/public/" />
     </remote-repository>
     <remote-repository>
-      <option name="id" value="mulesoft-releases" />
-      <option name="name" value="MuleSoft Releases Repository" />
-      <option name="url" value="https://repository.mulesoft.org/releases/" />
+      <option name="id" value="spring-plugin" />
+      <option name="name" value="Spring Plugins Repository" />
+      <option name="url" value="https://repo.spring.io/ui/native/plugins-release/" />
     </remote-repository>
     <remote-repository>
       <option name="id" value="JBoss public" />

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.hunt.worker.mapper.TicketMapper">
+  <resultMap id="BaseResultMap" type="com.hunt.worker.ticket.model.Ticket">
+    <!--@mbg.generated-->
+    <!--@Table TICKET-->
+    <id column="ID" jdbcType="OTHER" property="id" />
+    <result column="ISSUEDATE" jdbcType="TIMESTAMP" property="issuedate" />
+    <result column="ISSUER" jdbcType="VARCHAR" property="issuer" />
+    <result column="HUNTERID" jdbcType="OTHER" property="hunterid" />
+    <result column="CREATEDDATE" jdbcType="TIMESTAMP" property="createddate" />
+    <result column="UPDATEDDATE" jdbcType="TIMESTAMP" property="updateddate" />
+  </resultMap>
+  <sql id="Base_Column_List">
+    <!--@mbg.generated-->
+    ID, ISSUEDATE, ISSUER, HUNTERID, CREATEDDATE, UPDATEDDATE
+  </sql>
+</mapper>

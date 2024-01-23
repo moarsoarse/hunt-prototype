@@ -7,8 +7,8 @@ import org.camunda.community.process_test_coverage.junit5.platform7.ProcessEngin
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 
-import static org.camunda.bpm.engine.test.assertions.bpmn.BpmnAwareTests.*;
-import static org.assertj.core.api.Assertions.*;
+import static org.camunda.bpm.engine.test.assertions.bpmn.BpmnAwareTests.assertThat;
+import static org.camunda.bpm.engine.test.assertions.bpmn.BpmnAwareTests.processEngine;
 
 /**
  * Test case starting an in-memory database-backed Process Engine.

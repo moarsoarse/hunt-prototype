@@ -1,7 +1,6 @@
 package com.hunt;
 
 import org.camunda.bpm.engine.ProcessEngine;
-import org.camunda.bpm.engine.runtime.ProcessInstance;
 import org.camunda.bpm.engine.test.Deployment;
 import org.camunda.bpm.scenario.ProcessScenario;
 import org.camunda.community.process_test_coverage.spring_test.platform7.ProcessEngineCoverageConfiguration;
@@ -12,14 +11,8 @@ import org.mockito.MockitoAnnotations;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.context.annotation.Import;
-import org.camunda.bpm.scenario.ProcessScenario;
-import org.camunda.bpm.scenario.Scenario;
-import org.camunda.bpm.scenario.run.ProcessRunner.ExecutableRunner;
 
-import static org.mockito.Mockito.*;
-
-import static org.assertj.core.api.Assertions.*;
-import static org.camunda.bpm.engine.test.assertions.bpmn.BpmnAwareTests.*;
+import static org.camunda.bpm.engine.test.assertions.bpmn.BpmnAwareTests.init;
 
 
 /**

@@ -1,0 +1,10 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="Hunter" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" focusToolWindowBeforeRun="true">
+    <option name="DEBUG_MODE" value="true" />
+    <module name="hunt-hunter-service" />
+    <option name="SPRING_BOOT_MAIN_CLASS" value="com.hunt.worker.hunter.HunterApplication" />
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>

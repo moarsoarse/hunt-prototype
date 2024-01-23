@@ -1,0 +1,3 @@
+<component name="DependencyValidationManager">
+  <scope name="OnlyHunt" pattern="(ext[Maven: org.camunda.bpm.springboot:camunda-bpm-spring-boot-starter-external-task-client:7.20.0]:*/||src[hunt-hunter-service]:*..*||src[hunt-service-parent]:*..*)&amp;&amp;!lib:*..*&amp;&amp;!test:*..*" />
+</component>
