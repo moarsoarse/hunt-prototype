@@ -14,10 +14,7 @@ public class Complete {
 
 
     public After<TreeMap<String, Object>> withEntity() {
-        return (externalTask, externalTaskService, entity) -> {
-            externalTaskService.complete(externalTask, entity);
-        };
-
+        return (externalTask, externalTaskService, entity) -> externalTaskService.complete(externalTask, entity);
     }
 
     public After<List<AbstractEntity>> withEntityList() {

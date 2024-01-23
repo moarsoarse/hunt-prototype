@@ -29,6 +29,7 @@ public class WorkerProperties extends ClientConfiguration implements Initializin
                     s.setTopicName(workerId.toLowerCase() + "." + w.toLowerCase() + "." + k.toLowerCase())
                 )
         );
+        LOG
     }
 
 }
