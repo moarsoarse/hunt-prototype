@@ -1,7 +1,7 @@
 package com.hunt.hunter.repository;
 
 import com.hunt.hunter.model.Hunter;
-import com.hunt.worker.common.model.EntityRepository;
+import com.hunt.worker.model.EntityRepository;
 import org.springframework.stereotype.Repository;
 
 import java.util.List;

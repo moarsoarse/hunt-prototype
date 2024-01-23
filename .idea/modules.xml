@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/worker/hunt-camunda-worker.iml" filepath="$PROJECT_DIR$/worker/hunt-camunda-worker.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hunter/hunt-hunter-service.iml" filepath="$PROJECT_DIR$/hunter/hunt-hunter-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/hunt-root.iml" filepath="$PROJECT_DIR$/hunt-root.iml" />
       <module fileurl="file://$PROJECT_DIR$/ticket/hunt-ticket-service.iml" filepath="$PROJECT_DIR$/ticket/hunt-ticket-service.iml" />
     </modules>

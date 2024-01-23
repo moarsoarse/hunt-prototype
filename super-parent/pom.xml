@@ -10,15 +10,15 @@
   <name>[Hunt Platform] Grand Parent Pom</name>
   <packaging>pom</packaging>
   <properties>
-    <camunda.version>7.20.0</camunda.version>
 
     <jaxb-api.version>2.3.1</jaxb-api.version>
 
     <properties-maven-plugin.version>1.1.0</properties-maven-plugin.version>
 
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <project.build.targetEncoding>UTF-8</project.build.targetEncoding>
     <mapstruct.version>1.5.5.Final</mapstruct.version>
-
+    <guava.version>33.0.0-jre</guava.version>
     <failOnMissingWebXml>false</failOnMissingWebXml>
   </properties>
 
@@ -28,14 +28,7 @@
       <dependency>
         <groupId>com.google.guava</groupId>
         <artifactId>guava</artifactId>
-        <version>33.0.0-jre</version>
-      </dependency>
-      <dependency>
-        <groupId>org.camunda.bpm</groupId>
-        <artifactId>camunda-bom</artifactId>
-        <version>${camunda.version}</version>
-        <scope>import</scope>
-        <type>pom</type>
+        <version>${guava.version}</version>
       </dependency>
       <dependency>
         <groupId>org.springframework.cloud</groupId>
@@ -54,23 +47,7 @@
 
 <dependencies>
   <!-- Spring cloud -->
-  <dependency>
-    <groupId>org.springframework.cloud</groupId>
-    <artifactId>spring-cloud-starter-bootstrap</artifactId>
-  </dependency>
 
-  <dependency>
-    <groupId>org.springframework.cloud</groupId>
-    <artifactId>spring-cloud-starter-loadbalancer</artifactId>
-  </dependency>
-  <dependency>
-    <groupId>org.springframework.cloud</groupId>
-    <artifactId>spring-cloud-function-context</artifactId>
-  </dependency>
-  <dependency>
-    <groupId>org.springframework.cloud</groupId>
-    <artifactId>spring-cloud-function-core</artifactId>
-  </dependency>
   <dependency>
     <groupId>org.springframework.cloud</groupId>
     <artifactId>spring-cloud-function-web</artifactId>

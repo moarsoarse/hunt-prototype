@@ -1,14 +1,13 @@
 package com.hunt.hunter.dto;
 
 import com.hunt.hunter.model.Hunter;
-import com.hunt.worker.common.model.EntityMapper;
 import org.mapstruct.*;
 
 import java.util.TreeMap;
 
 
 @Mapper(unmappedTargetPolicy = ReportingPolicy.IGNORE, componentModel = MappingConstants.ComponentModel.SPRING)
-public interface HunterMapper extends EntityMapper<Hunter> {
+public interface HunterMapper {
 
 
     Hunter toEntity(TreeMap<String,Object> hunterDto);
@@ -19,4 +18,8 @@ public interface HunterMapper extends EntityMapper<Hunter> {
 
     @BeanMapping(nullValuePropertyMappingStrategy = NullValuePropertyMappingStrategy.IGNORE)
     Hunter partialUpdate(TreeMap<String,Object> hunterDto, @MappingTarget Hunter hunter);
+
+    default String toString(Object value) {
+        return value.toString();
+    }
 }

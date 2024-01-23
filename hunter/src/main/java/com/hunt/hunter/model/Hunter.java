@@ -1,6 +1,6 @@
 package com.hunt.hunter.model;
 
-import com.hunt.worker.common.model.AbstractEntity;
+import com.hunt.worker.model.AbstractEntity;
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.Table;
