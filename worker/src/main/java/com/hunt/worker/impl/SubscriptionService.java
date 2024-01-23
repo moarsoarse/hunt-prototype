@@ -29,16 +29,13 @@ public class SubscriptionService {
     }
 
     public void canon() {
-        String prefix = workerProperties.getWorkerId();
         Map<String, EntityProperties> entities = workerProperties.getEntities();
         if (entities != null) {
             for(String entityName : entities.keySet()) {
                 Class<? extends AbstractEntity>  entityType = AbstractEntity.childForName(entityName);
                 Map<String, SubscriptionConfiguration> subscriptions = entities.get(entityName).getSubscriptions();
-                subscriptions.forEach((workerName, subscription) -> {
-                    client.subscribe(subscription.getTopicName())
-                            .handler(handlerProvider.getObject(workerName,entityType)).open();
-                });
+                subscriptions.forEach((workerName, subscription) -> client.subscribe(subscription.getTopicName())
+                        .handler(handlerProvider.getObject(workerName,entityType)).open());
             }
 
         }

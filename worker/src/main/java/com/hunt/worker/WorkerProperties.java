@@ -23,13 +23,12 @@ public class WorkerProperties extends ClientConfiguration implements Initializin
 
 
     @Override
-    public void afterPropertiesSet() throws Exception {
+    public void afterPropertiesSet(){
         entities.forEach((k, v) ->
                 v.getSubscriptions().forEach((w, s) ->
                     s.setTopicName(workerId.toLowerCase() + "." + w.toLowerCase() + "." + k.toLowerCase())
                 )
         );
-        LOG
     }
 
 }
